@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SongFragment">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/img"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/now_playing"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify_playlist"
+        android:textSize="28sp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/brown"
+        android:textStyle="italic"
+        android:layout_marginTop="250dp"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asylbekova_astra"
+        android:textSize="16sp"
+        android:layout_marginStart="32dp"
+        android:textColor="@color/brown"
+        android:textStyle="italic"
+        android:layout_marginTop="295dp"
+        tools:ignore="SmallSp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/song_rv"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        tools:listitem="@layout/fragment_song_item"
+
+        />
+
+</FrameLayout>

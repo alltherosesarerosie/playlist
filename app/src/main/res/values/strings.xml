@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">playlist</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1">1</string>
+    <string name="pink_venom">Pink Venom</string>
+    <string name="blackpink">BLACKPINK</string>
+    <string name="_3_25">3:25</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="spotify_playlist">Spotify Playlist</string>
+    <string name="asylbekova_astra">Asylbekova Astra</string>
+</resources>

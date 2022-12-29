@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    tools:context=".SongItem">
+
+
+
+    <TextView
+        android:id="@+id/numbering_tv"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="20dp"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="@string/_1"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/pink_venom"
+        android:textColor="@color/black"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/artist_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/blackpink"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="60dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="48dp"
+        android:textSize="20sp"
+        android:text="@string/_3_25"
+
+
+        />
+
+</androidx.cardview.widget.CardView>
